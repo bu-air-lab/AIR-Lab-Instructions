@@ -4,7 +4,7 @@
 ## Robotic Platforms
 * [Turtlebot](#turtlebot)
 * [Segbot](#segbot)
-* [UR5e Robotic Arm](#ur5e)
+* [UR5e Robotic Arm](#ur5e robotic arm)
 
 ## Turtlebot
 AIR Lab has a team of 8 Turtlebot-2 robots. This [page](https://github.com/vkudalk1/AIR-Lab-Instructions/blob/master/Turtlebot.md) shows the instructions to run the Turtlebot.
