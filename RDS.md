@@ -58,8 +58,9 @@ Close all the ROS applications.
 
 ## Localization and Navigation
 
-To start a 3D simulator called Gazebo, click on Simulations. Select corridor world and Turtlebot2 as a robot. 
-A robot will appear in a simulation environment. 
+To start a 3D simulator called Gazebo, click on Simulations. <br>
+Select corridor world and Turtlebot2 as a robot. <br>
+A robot will appear in a simulation environment. <br>
 
 Open a terminal and type:
 
@@ -67,7 +68,7 @@ Open a terminal and type:
 roscd turtlebot_navigation/launch/includes/amcl/
 cp amcl.launch.xml ../
 ```
-Close the terminal
+
 
 Open a new terminal:
 
@@ -77,7 +78,7 @@ Open a new terminal:
 ## Starting 3D visualization tool called Rviz
 Click Tools → Graphical Tools
 
-To open a terminal, click on Tools --> Shell and type the following command
+Open a terminal and type the following command
 
 `roslaunch turtlebot_rviz_launchers view_navigation.launch`
 
