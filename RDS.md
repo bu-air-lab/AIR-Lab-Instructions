@@ -17,7 +17,7 @@ Select corridor world and Turtlebot2 as a robot. <br>
 A robot will appear in a simulation environment. <br>
 
 This ia how the corridor world will look in Gazebo.
-![Gazebo world](https://github.com/bu-air-lab/Instructions-for-operating-robots/img/gazebo.png)
+![Gazebo world](https://github.com/bu-air-lab/Instructions-for-operating-robots/img/gazebo.PNG)
 
 ## Starting 3D visualization tool called Rviz
 Click Tools → Graphical Tools
@@ -47,7 +47,7 @@ Now using teleoperation, navigate TurtleBot around the entire area you wish to m
 You need to use “i” to move forward and “j” and “l” to move left and right respectively.
 
 This is how the generated map of corridor world will look like.
-![Rviz map](https://github.com/bu-air-lab/Instructions-for-operating-robots/img/map.png)
+![Rviz map](https://github.com/bu-air-lab/Instructions-for-operating-robots/img/map.PNG)
 
 ## To save the map
 
