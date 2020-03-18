@@ -88,7 +88,7 @@ Open a terminal and type the following command
 
 `roslaunch turtlebot_rviz_launchers view_navigation.launch`
 
-![Rviz map](https://github.com/bu-air-lab/Instructions-for-operating-robots/blob/master/img/map_annotations.PNG)
+![Rviz map](https://github.com/bu-air-lab/Instructions-for-operating-robots/blob/master/img/map_annotations.png)
 
 Then use the 2D Pose estimate button to give an initial pose of the robot. 
 Now, using the 2D Navigation goal button you can give a goal to the robot.
