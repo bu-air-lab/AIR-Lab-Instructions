@@ -9,6 +9,7 @@ Click New ROSject from the left navigation bar.
 Give a name for the ROSject.
 For the ROS Configuration, select Ubuntu 16.04 + ROS Kinetic + Gazebo 7
 Scroll down and select Create.
+
 Open the ROSject with the Basic hardware.
 
 ## Start a 3D simulator called Gazebo
@@ -43,7 +44,7 @@ You need to use “i” to move forward and “j” and “l” to move left and
 ## To save the map
 
 Open a terminal and type:
-````
+```
 mkdir maps
 rosrun map_server map_saver -f maps/corridor_map
 ```
@@ -75,6 +76,7 @@ To open a terminal, click on Tools --> Shell and type the following command
 `roslaunch turtlebot_rviz_launchers view_navigation.launch`
 
 Then use the 2D Pose estimate button to give an initial pose of the robot. 
-Now, using the 2D Navigation goal button you can give a goal to the robot and the robot will autonomously navigate to the 2D coordinate.
+Now, using the 2D Navigation goal button you can give a goal to the robot.
+The robot will then autonomously navigate to the 2D coordinate.
 
 
