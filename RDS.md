@@ -1,5 +1,5 @@
 # ROS Development Studio
-> The page gives the instructions for using RDS platform.
+> The page gives detailed instructions for mapping, localization and navigation using a Turlebot2 on RDS platform.
 
 ## Create an account on ROS Development Studio
 Create an account on https://rds.theconstructsim.com/ or login to your account if you already have an account.
@@ -75,7 +75,7 @@ Open a new terminal:
 `roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/home/user/maps/corridormap.yaml`
 
 
-## Starting 3D visualization tool called Rviz
+To start 3D visualization tool called Rviz
 Click Tools → Graphical Tools
 
 Open a terminal and type the following command
