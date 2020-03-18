@@ -29,22 +29,24 @@ In a new terminal, run the follwoing two commands:
 roscd turtlebot_navigation/launch/includes/gmapping
 cp gmapping.launch.xml ../
 ```
-Close the terminal
 
 In a new terminal,
+
 `roslaunch turtlebot_gazebo gmapping_demo.launch`
 
 ## Building a map
 
 In a new terminal, type the following command:
+
 `roslaunch turtlebot_teleop keyboard_teleop.launch`
 
-Now using teleoperation, navigate TurtleBot around the entire area you wish to map.
+Now using teleoperation, navigate TurtleBot around the entire area you wish to map.<br>
 You need to use “i” to move forward and “j” and “l” to move left and right respectively.
 
 ## To save the map
 
 Open a terminal and type:
+
 ```
 mkdir maps
 rosrun map_server map_saver -f maps/corridor_map
@@ -60,6 +62,7 @@ To start a 3D simulator called Gazebo, click on Simulations. Select corridor wor
 A robot will appear in a simulation environment. 
 
 Open a terminal and type:
+
 ```
 roscd turtlebot_navigation/launch/includes/amcl/
 cp amcl.launch.xml ../
@@ -67,6 +70,7 @@ cp amcl.launch.xml ../
 Close the terminal
 
 Open a new terminal:
+
 `roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/home/user/maps/corridormap.yaml`
 
 
@@ -74,6 +78,7 @@ Open a new terminal:
 Click Tools → Graphical Tools
 
 To open a terminal, click on Tools --> Shell and type the following command
+
 `roslaunch turtlebot_rviz_launchers view_navigation.launch`
 
 Then use the 2D Pose estimate button to give an initial pose of the robot. 
