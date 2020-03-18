@@ -5,25 +5,26 @@
 Create an account on https://rds.theconstructsim.com/ or login to your account if you already have an account.
 
 ## Creating a project
-Click New ROSject from the left navigation bar.
-Give a name for the ROSject.
-For the ROS Configuration, select Ubuntu 16.04 + ROS Kinetic + Gazebo 7
-Scroll down and select Create.
-
-Open the ROSject with the Basic hardware.
+Click New ROSject from the left navigation bar.<br>
+Give a name for the ROSject.<br>
+For the ROS Configuration, select Ubuntu 16.04 + ROS Kinetic + Gazebo 7<br>
+Scroll down and select Create.<br>
+Open the ROSject with the Basic hardware.<br>
 
 ## Start a 3D simulator called Gazebo
-Click on Simulations.
-Select corridor world and Turtlebot2 as a robot. 
-A robot will appear in a simulation environment. 
+Click on Simulations.<br>
+Select corridor world and Turtlebot2 as a robot. <br>
+A robot will appear in a simulation environment. <br>
 
 ## Starting 3D visualization tool called Rviz
 Click Tools → Graphical Tools
 
 To open a terminal, click on Tools --> Shell and type the following command
+
 `roslaunch turtlebot_rviz_launchers view_navigation.launch`
 
 In a new terminal, run the follwoing two commands:
+
 ```
 roscd turtlebot_navigation/launch/includes/gmapping
 cp gmapping.launch.xml ../
