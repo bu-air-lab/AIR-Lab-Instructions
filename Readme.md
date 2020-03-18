@@ -15,3 +15,6 @@ The lab also have a Segway-based mobile robot platform (RMP-110). The following 
 
 ## UR5e
 The lab also has a collaborative robot arm from Universal Robots with a two-finger gripper and 6-DOF. This [page](https://github.com/bu-air-lab/Instructions-for-operating-robots/blob/master/UR5e.md) shows the instructions to run the UR5e robotic arm.
+
+## ROS Development Studio
+ROS Development Studio is an online simulation platform created by The Construct. This [page](https://github.com/bu-air-lab/Instructions-for-operating-robots/blob/master/RDS.md) gives the guidelines for using the platform.
