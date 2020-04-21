@@ -54,7 +54,9 @@ Open a terminal and type:
 
 `mkdir maps`
 
-`rosrun map_server map_saver -f maps/corridor_map`
+`cd maps`
+
+`rosrun map_server map_saver -f corridor_map`
 
 In the maps folder, corridor_map.pgm and corridor_map.yaml will be generated.
 
