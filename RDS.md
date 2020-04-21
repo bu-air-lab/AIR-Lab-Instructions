@@ -26,12 +26,10 @@ To open a terminal, click on Tools --> Shell and type the following command
 
 `roslaunch turtlebot_rviz_launchers view_navigation.launch`
 
-In a new terminal, run the follwoing two commands:
+In a new terminal, run the following two commands:
 
-```
-roscd turtlebot_navigation/launch/includes/gmapping
-cp gmapping.launch.xml ../
-```
+`roscd turtlebot_navigation/launch/includes/gmapping`
+`p gmapping.launch.xml ../`
 
 In a new terminal,
 
