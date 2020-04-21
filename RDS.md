@@ -29,7 +29,8 @@ To open a terminal, click on Tools --> Shell and type the following command
 In a new terminal, run the following two commands:
 
 `roscd turtlebot_navigation/launch/includes/gmapping`
-`p gmapping.launch.xml ../`
+
+`cp gmapping.launch.xml ../`
 
 In a new terminal,
 
