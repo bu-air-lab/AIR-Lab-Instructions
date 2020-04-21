@@ -94,4 +94,4 @@ Then use the 2D Pose estimate button to give an initial pose of the robot.
 Now, using the 2D Navigation goal button you can give a goal to the robot.
 The robot will then autonomously navigate to the 2D coordinate.
 
-
+Close all ROS applications.
