@@ -52,10 +52,9 @@ This is how the generated map of corridor world will look like.
 
 Open a terminal and type:
 
-```
-mkdir maps
-rosrun map_server map_saver -f maps/corridor_map
-```
+`mkdir maps`
+
+`rosrun map_server map_saver -f maps/corridor_map`
 
 In the maps folder, corridor_map.pgm and corridor_map.yaml will be generated.
 
