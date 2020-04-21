@@ -53,7 +53,7 @@ def moveToGoal(xIn,yIn):
 if __name__ == '__main__':
     try:
         #Name of the ROS node -- feel free to write anything you want to name it
-        rospy.itut nit_node('fri_move_goal')
+        rospy.init_node('fri_move_goal')
         # x1,y1 are the 2D coordinates of the Point where you want the robot to navigate
         x1 = -2.46
         y1 = 3.92
