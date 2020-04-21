@@ -68,10 +68,10 @@ A robot will appear in a simulation environment. <br>
 
 Open a terminal and type:
 
-```
-roscd turtlebot_navigation/launch/includes/amcl/
-cp amcl.launch.xml ../
-```
+`roscd turtlebot_navigation/launch/includes/amcl/`
+
+`cp amcl.launch.xml ../`
+
 
 
 Open a new terminal:
