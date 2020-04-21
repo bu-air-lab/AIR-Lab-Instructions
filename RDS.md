@@ -50,7 +50,7 @@ This is how the generated map of corridor world will look like.
 
 ## To save the map
 
-Open a terminal and type:
+Open a terminal and type the following 3 commands:
 
 `mkdir maps`
 
@@ -60,7 +60,7 @@ Open a terminal and type:
 
 In the maps folder, corridor_map.pgm and corridor_map.yaml will be generated.
 
-Close all the ROS applications.
+Close all the ROS applications i.e. all terminals, Gazebo, Rviz and any other tabs.
 
 ## Localization and Navigation
 
@@ -79,6 +79,7 @@ Open a terminal and type:
 Open a new terminal:
 
 `roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/home/user/maps/corridor_map.yaml`
+
 
 
 To start 3D visualization tool called Rviz
