@@ -78,7 +78,7 @@ Open a terminal and type:
 
 Open a new terminal:
 
-`roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/home/user/maps/corridormap.yaml`
+`roslaunch turtlebot_gazebo amcl_demo.launch map_file:=/home/user/maps/corridor_map.yaml`
 
 
 To start 3D visualization tool called Rviz
